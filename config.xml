@@ -156,11 +156,19 @@ just android ios
     <gap:plugin name="cordova-plugin-vibration" source="npm" />
 	
 	<gap:plugin name="cordova-plugin-whitelist" source="npm"/>
-	<!-- <gap:plugin name="com.phonegap.plugin.statusbar" source="npm" /> -->
+	<!-- <gap:plugin name="com.phonegap.plugin.statusbar" source="npm" /> 
 	<plugin name="org.apache.cordova.statusbar" source="pgb" />
+	-->
 	
 	
-	<!-- try npm and gap: in front for statusbar-->
+	<plugin name="cordova-plugin-statusbar" source="npm" />
+	
+	
+	<!-- 
+	
+	--- new is cordova plugin add cordova-plugin-statusbar
+	
+	try npm and gap: in front for statusbar-->
 
 	<!-- 
 	or real page said
