@@ -68,7 +68,6 @@ just android ios
 	
 <icon src="icon/ios/icon.png" width="1024" height="1024" />	
 	
-
 <!-- splash-->
 
 <gap:splash src="splash/ios/Default-568h@2x~iphone.png" gap:platform="ios" width="320" height="480" />
