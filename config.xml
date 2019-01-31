@@ -2,8 +2,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.idcapp.basic"
-    versionCode = "12"
-    version     = "1.0.12" >
+    versionCode = "13"
+    version     = "1.0.13" >
 	
 <!--
 just android ios
@@ -66,7 +66,7 @@ just android ios
 <icon src="icon-50.png" gap:platform="ios" width="50" height="50" />
 <icon src="icon-50@2x.png" gap:platform="ios" width="100" height="100" />
 	
-<icon src="icon/ios/icon.png" width="1024" height="1024" />	
+
 	
 <!-- splash-->
 
@@ -101,10 +101,17 @@ just android ios
     <!-- Customize your app and platform with the preference element. -->
 	
 	
-	<preference name="StatusBarOverlaysWebView" value="false" />
-	<preference name="StatusBarBackgroundColor" value="#6290ee" /> 
+<preference name="StatusBarOverlaysWebView" value="false" />
+<preference name="StatusBarBackgroundColor" value="#6290ee" /> 
+
+<!--<preference name="phonegap-version" value="cli-6.5.0" />-->
+<preference name="phonegap-version" value="cli-7.1.0" />
+<icon src="icon/ios/icon.png" width="1024" height="1024" />
+
+
 	
-	<preference name="phonegap-version" value="cli-6.5.0" /> <!-- all: current version of PhoneGap -->
+	
+	<!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
@@ -162,10 +169,6 @@ just android ios
 	
 	<!-- <gap:plugin name="com.phonegap.plugin.statusbar" source="npm" /> 
 	<plugin name="org.apache.cordova.statusbar" source="pgb" /> -->
-	
-	
-	
-	
 	
 	<!-- 
 	
