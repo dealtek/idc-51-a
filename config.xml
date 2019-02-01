@@ -2,8 +2,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.idcapp.basic"
-    versionCode = "13"
-    version     = "1.0.13" >
+    versionCode = "14"
+    version     = "1.0.14" >
 	
 <!--
 just android ios
@@ -146,20 +146,22 @@ just android ios
 	<access origin="*" subdomains="true" />
 
 	<gap:plugin name="cordova-plugin-battery-status" source="npm" />
+<!--
     <gap:plugin name="cordova-plugin-camera" source="npm" />
     <gap:plugin name="cordova-plugin-media-capture" source="npm" />
+-->
     <gap:plugin name="cordova-plugin-console" source="npm" />
-    <gap:plugin name="cordova-plugin-contacts" source="npm" />
+<!--    <gap:plugin name="cordova-plugin-contacts" source="npm" />-->
     <gap:plugin name="cordova-plugin-device" source="npm"  />
     <gap:plugin name="cordova-plugin-device-motion" source="npm" />
     <gap:plugin name="cordova-plugin-device-orientation" source="npm" />
     <gap:plugin name="cordova-plugin-dialogs" source="npm" />
     <gap:plugin name="cordova-plugin-file" source="npm" />
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
-    <gap:plugin name="cordova-plugin-geolocation" source="npm" />
-    <gap:plugin name="cordova-plugin-globalization" source="npm" />
+<!--    <gap:plugin name="cordova-plugin-geolocation" source="npm" />-->
+<!--    <gap:plugin name="cordova-plugin-globalization" source="npm" />-->
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
-    <gap:plugin name="cordova-plugin-media" source="npm" />
+<!--    <gap:plugin name="cordova-plugin-media" source="npm" />-->
     <gap:plugin name="cordova-plugin-network-information" source="npm" />
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
     <gap:plugin name="cordova-plugin-vibration" source="npm" />
